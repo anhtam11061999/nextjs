@@ -17,6 +17,7 @@ export default function DetailMovie({ movie }) {
                 <Col span={12} style={{ padding: '10px' }}>
                     <h1>{movie.title}</h1>
                     <p>{movie.overview}</p>
+                    <p>đã sửa</p>
                 </Col>
                 <Col span={6} style={{ padding: '10px' }}>
                     <Row>
@@ -29,6 +30,7 @@ export default function DetailMovie({ movie }) {
                                 />
                             </Col>
                         ))}
+                        
 
                     </Row>
                 </Col>
